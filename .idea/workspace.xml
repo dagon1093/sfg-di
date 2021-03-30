@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46b4764-5e61-4d40-aa35-aaf54d39da42" name="Default Changelist" comment="" />
+    <list default="true" id="b46b4764-5e61-4d40-aa35-aaf54d39da42" name="Default Changelist" comment="Spring Profile question">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ncaDJEWV3Jau9XPOWBsSpeDH4L" />
@@ -37,6 +44,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -144,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617053748227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring Profile question">
+      <created>1617054599863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617054599863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617047336000" />
-    <state x="549" y="113" key="CommitChangelistDialog2" timestamp="1617053744555">
+    <state x="549" y="113" key="CommitChangelistDialog2" timestamp="1617084445900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617053744555" />
+    <state x="549" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617084445900" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1616839223987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,14 +216,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914964" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1611692772409">
+    <state x="440" y="93" key="SettingsEditor" timestamp="1617084716397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611692772409" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617053770543">
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617084716397" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617084429656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617053770543" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617084429656" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1616652777929">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -217,5 +232,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="237" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616702290894" />
+    <state x="661" y="310" key="git4idea.merge.GitPullDialog" timestamp="1617085036544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617085036544" />
+    <state x="725" y="383" key="git4idea.rebase.GitRebaseDialog" timestamp="1617084910476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="383" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617084910476" />
+    <state x="774" y="364" key="git4idea.ui.GitTagDialog" timestamp="1617054833766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="774" y="364" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617054833766" />
+    <state x="687" y="367" key="git4idea.ui.GitUnstashDialog" timestamp="1617084866152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="367" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617084866152" />
   </component>
 </project>
