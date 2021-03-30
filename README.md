@@ -1,38 +1,34 @@
-# Dependency Injection Examples
+ :: Spring Boot ::                (v2.4.2)
 
-This repository is for an example application built in my [Spring Framework 5 - Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) online course
+2021-03-30 08:58:55.108  INFO 11608 --- [           main] c.s.sfgdi.SfgDiApplication               : Starting SfgDiApplication using Java 11.0.2 on pk with PID 11608 (D:\spring projects\sfg-di\target\classes started by lol in D:\spring projects\sfg-di)
+2021-03-30 08:58:55.108  INFO 11608 --- [           main] c.s.sfgdi.SfgDiApplication               : No active profile set, falling back to default profiles: default
+2021-03-30 08:58:56.008  WARN 11608 --- [           main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'i18nController' defined in file [D:\spring projects\sfg-di\target\classes\com\springdiexample\sfgdi\controllers\I18nController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springdiexample.sfgdi.services.GreetingService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="i18nService")}
+2021-03-30 08:58:56.018  INFO 11608 --- [           main] ConditionEvaluationReportLoggingListener : 
 
-As you work through the course, please feel free to fork this repository to your out GitHub repo. Most links contain links 
-to source code changes. If you encounter a problem you can compare your code to the lesson code. [See this link for help with compares](https://github.com/springframeworkguru/spring5webapp/wiki#getting-an-error-but-cannot-find-what-is-different-from-lesson-source-code)
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-30 08:58:56.068 ERROR 11608 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-## All Spring Framework Guru Courses
-### Spring Framework 5
-* [Spring Framework 5: Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) - Get the most modern and comprehensive course available for the Spring Framework! Join over 8,200 over Guru's in an Slack community exclusive to this course! More than 3,700 students have given this 53 hour course a 5 star review!
-* [Spring Boot Microservices with Spring Cloud Beginner to Guru](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/?referralCode=6142D427AE53031FEF38) - Master Microservice Architectures Using Spring Boot 2 and Cloud Based Deployments with Spring Cloud and Docker
-* [Reactive Programming with Spring Framework 5](https://www.udemy.com/reactive-programming-with-spring-framework-5/?couponCode=GITHUB_REPO_SF5B2G) - Keep your skills razor sharp and take a deep dive into Reactive Programming!
-* [Testing Spring Boot: Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO_SF5B2G) - ** Best Selling Course** Become an expert in testing Java and Spring Applications with JUnit 5, Mockito and much more!
+***************************
+APPLICATION FAILED TO START
+***************************
 
-### SQL
-* [SQL Beginner to Guru: MySQL Edition](https://www.udemy.com/sql-beginner-to-guru-mysql-edition/?couponCode=GITHUB_REPO_SF5B2G) - SQL is a fundamental must have skill, which employers are looking for. Learn to master SQL on MySQL, the worlds most popular database!
+Description:
 
-### DevOps
-* [Apache Maven: Beginner to Guru](https://www.udemy.com/apache-maven-beginner-to-guru/?couponCode=GITHUB_REPO_SF5B2G) - **Best Selling Course** Take the mystery out of Apache Maven. Learn how to use Maven to build your Java and Spring Boot projects!
-* [OpenAPI: Beginner to Guru](https://www.udemy.com/course/openapi-beginner-to-guru/?referralCode=0E7F511C749013CA6AAD) - Master OpenAPI (formerly Swagger) to Create Specifications for Your APIs
-* [Docker for Java Developers](https://www.udemy.com/docker-for-java-developers/?couponCode=GITHUB_REPO_SF5B2G) - Best Selling Course on Udemy! Learn how you can supercharge your development by leveraging Docker. Collaborate with other students in a Slack community exclusive to the course!
-* [Spring Framework DevOps on AWS](https://www.udemy.com/spring-core-devops-on-aws/?couponCode=GITHUB_REPO_SF5B2G) - Learn how to build and deploy Spring applications on Amazon AWS!
-* [Ready for Production with Spring Boot Actuator](https://www.udemy.com/ready-for-production-with-spring-boot-actuator/?couponCode=GITHUB_REPO_SF5B2G) - Learn how to leverage Spring Boot Actuator to monitor your applications running in production.
+Parameter 0 of constructor in com.springdiexample.sfgdi.controllers.I18nController required a bean of type 'com.springdiexample.sfgdi.services.GreetingService' that could not be found.
 
-### Web Development with Spring Framework
-* [Angular 4 Java Developers](https://www.udemy.com/angular-4-java-developers/?couponCode=GITHUB_REPO_SF5B2G) - Learn how to use Angular with Spring Boot. Two flaming hot technologies! This is the only course on Udemy where you can learn how to use JHipster to rapidly build your next application! Also, be sure to checkout the Slack community for this course!
-* [Mastering Thymeleaf with Spring Boot](https://www.udemy.com/mastering-thymeleaf-with-spring/?couponCode=GITHUB_REPO_SF5B2G) - Once you learn Thymeleaf, you'll never want to go back to using JSPs for web development!
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier(value="i18nService")
 
-### Spring Framework 4
-* [Spring Core](https://www.udemy.com/spring-core/) - Learn the core of Spring Framework 4!
-* [Spring Core Advanced](https://www.udemy.com/spring-core-advanced-beyond-the-basics/?couponCode=GITHUB_REPO_SF5B2G) - Go beyond the basics! Learn about Aspect Oriented Programming, Spring Security, using Spring Events, JMS and more!
+The following candidates were found but could not be injected:
+	- User-defined bean
+	- User-defined bean
+	- User-defined bean
+	- User-defined bean
 
-## Connect with Spring Framework Guru
-* Spring Framework Guru [Blog](https://springframework.guru/)
-* Subscribe to Spring Framework Guru on [YouTube](https://www.youtube.com/channel/UCrXb8NaMPQCQkT8yMP_hSkw)
-* Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
-* Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
-* Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'com.springdiexample.sfgdi.services.GreetingService' in your configuration.
+
+
+Process finished with exit code 1
