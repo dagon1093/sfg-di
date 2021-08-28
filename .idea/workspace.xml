@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b46b4764-5e61-4d40-aa35-aaf54d39da42" name="Default Changelist" comment="Spring Profile question">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/repositories/EnglishGreetingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/repositories/EnglishGreetingRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pets/CatPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pets/DogPetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pets/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pets/PetServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nRussianGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nRussianGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sfg-di.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/SfgDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/I18nController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/I18nController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/PropertyInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/PropertyInjectedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/SetterInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/SetterInjectedController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/ConstructorGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/ConstructorGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/GreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/GreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nRussianGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nRussianGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PrimaryGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PrimaryGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/SfgDiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/SfgDiApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/PropertyInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/PropertyInjectedControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/SetterInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/SetterInjectedControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,35 +69,36 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../psyLes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.springdiexample.sfgdi.controllers" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springdiexample.sfgdi.repositories" />
+      <recent name="com.springdiexample.sfgdi.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring projects\sfg-di" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\spring projects\sfg-di" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springdiexample.sfgdi.services" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\spring projects\sfg-di" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springdiexample.sfgdi.controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SfgDiApplication">
@@ -134,6 +172,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,91 +201,21 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring Profile question" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring Profile question" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="177" key="#Project_Structure" timestamp="1611692349145">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1611692349145" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1617047336000">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617047336000" />
-    <state x="549" y="113" key="CommitChangelistDialog2" timestamp="1617084445900">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="549" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617084445900" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1616839223987">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616839223987" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom" timestamp="1617053914963">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914963" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center" timestamp="1617053914963">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914963" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left" timestamp="1617053914963">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914963" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right" timestamp="1617053914963">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914963" />
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1617053914964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914964" />
-    <state width="1876" height="342" key="GridCell.Tab.1.center" timestamp="1617053914964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914964" />
-    <state width="1876" height="342" key="GridCell.Tab.1.left" timestamp="1617053914964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914964" />
-    <state width="1876" height="342" key="GridCell.Tab.1.right" timestamp="1617053914964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617053914964" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1617084716397">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617084716397" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1617084429656">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617084429656" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1616652777929">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616652777929" />
-    <state x="714" y="237" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616702290894">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="714" y="237" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616702290894" />
-    <state x="661" y="310" key="git4idea.merge.GitPullDialog" timestamp="1617085036544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="661" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617085036544" />
-    <state x="725" y="383" key="git4idea.rebase.GitRebaseDialog" timestamp="1617084910476">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="725" y="383" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617084910476" />
-    <state x="774" y="364" key="git4idea.ui.GitTagDialog" timestamp="1617054833766">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="774" y="364" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617054833766" />
-    <state x="687" y="367" key="git4idea.ui.GitUnstashDialog" timestamp="1617084866152">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="687" y="367" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617084866152" />
   </component>
 </project>
