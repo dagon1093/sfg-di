@@ -1,0 +1,4 @@
+com:
+  superuser: QAYmlUserName
+  password: QAYmlPassword
+  jdbcurl: QAYmlUrl

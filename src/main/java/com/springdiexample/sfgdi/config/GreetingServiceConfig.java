@@ -1,22 +1,32 @@
 package com.springdiexample.sfgdi.config;
 
+import com.springdiexample.sfgdi.datasource.FakeDataSource;
 import com.springdiexample.sfgdi.repositories.EnglishGreetingRepository;
 import com.springdiexample.sfgdi.repositories.EnglishGreetingRepositoryImpl;
 import com.springdiexample.sfgdi.services.ConstructorGreetingService;
 import com.springdiexample.sfgdi.services.I18nEnglishGreetingService;
 import com.springdiexample.sfgdi.services.I18nRussianGreetingService;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.*;
 import com.springdiexample.sfgdi.services.PrimaryGreetingService;
 import com.springdiexample.sfgdi.services.PropertyInjectedGreetingService;
 import com.springdiexample.sfgdi.services.SetterInjectedGreetingService;
 import pets.PetService;
 import pets.PetServiceFactory;
 
+@EnableConfigurationProperties(SfgConstructorConfig.class)
+@ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
+
+    @Bean
+    FakeDataSource fakeDataSource(SfgConfiguration sfgConfiguration){
+        FakeDataSource fakeDataSource = new FakeDataSource();
+        fakeDataSource.setUsername(sfgConfiguration.getSuperuser());
+        fakeDataSource.setPassword(sfgConfiguration.getPassword());
+        fakeDataSource.setJdbcurl(sfgConfiguration.getJdbcurl());
+        return fakeDataSource;
+    }
 
     @Bean
     PetServiceFactory petServiceFactory(){
@@ -58,7 +68,7 @@ public class GreetingServiceConfig {
     PrimaryGreetingService primaryGreetingService(){
         return new PrimaryGreetingService();
     }
-    @Bean
+//    @Bean
     ConstructorGreetingService constructorGreetingService(){
         return new ConstructorGreetingService();
     }

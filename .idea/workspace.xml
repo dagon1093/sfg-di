@@ -4,42 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b4764-5e61-4d40-aa35-aaf54d39da42" name="Default Changelist" comment="Spring Profile question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/repositories/EnglishGreetingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/repositories/EnglishGreetingRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pets/CatPetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pets/DogPetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pets/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pets/PetServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b46b4764-5e61-4d40-aa35-aaf54d39da42" name="Default Changelist" comment="added bean configuration examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/SfgConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/SfgConstructorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/datasource/FakeDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PrototypeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/SingletonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sfgdi-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nRussianGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/I18nRussianGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sfg-di.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/GreetingServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springdiexample/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/SfgDiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/I18nController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/I18nController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/PropertyInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/PropertyInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/SetterInjectedController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/controllers/SetterInjectedController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/ConstructorGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/ConstructorGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/GreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/GreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nEnglishGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nRussianGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/I18nRussianGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PrimaryGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PrimaryGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/PropertyInjectedGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springdiexample/sfgdi/services/SetterInjectedGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/SfgDiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/SfgDiApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/ConstructorInjectedControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/PropertyInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/PropertyInjectedControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/SetterInjectedControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/springdiexample/sfgdi/controllers/SetterInjectedControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +41,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ncaDJEWV3Jau9XPOWBsSpeDH4L" />
   <component name="ProjectLevelVcsManager">
@@ -163,6 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SfgDiApplication" />
+      <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
+      <item itemvalue="JUnit.PropertyInjectedControllerTest.getGreeting" />
+      <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SfgDiApplication" />
@@ -198,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617054599863</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added bean configuration examples">
+      <created>1630150326599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630150326599</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Spring Profile question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Profile question" />
+    <MESSAGE value="added bean configuration examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bean configuration examples" />
   </component>
 </project>

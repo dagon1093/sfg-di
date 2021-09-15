@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: EN,prod
+com:
+  superuser: YmlUserName
+  password: YmlPassword
+  jdbcurl: YmlUrl
+
+---
+spring:
+  profiles: prod
+com:
+  superuser: YmlProdUserName
+  password: YmlProdPassword
+  jdbcurl: YmlProdUrl
